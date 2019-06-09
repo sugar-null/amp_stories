@@ -1,0 +1,32 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More to read"
+    },
+    {
+      "type": "small",
+      "title": "Twitter",
+      "url": "#",
+      "image": "assets/bookend_flower.jpg"
+    },
+    {
+      "type": "small",
+      "title": "Instagram",
+      "url": "#",
+      "image": "assets/bookend_flower2.jpg"
+    },
+    {
+      "type": "small",
+      "title": "facebook",
+      "url": "#",
+      "image": "assets/bookend_flower3.jpg"
+    }
+  ]
+}

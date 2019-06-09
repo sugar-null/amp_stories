@@ -1,0 +1,123 @@
+<!doctype html>
+<html ⚡>
+  <head>
+    <meta charset="utf-8">
+    <title>曼珠沙華</title>
+    <link rel="canonical" href="index.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element = "amp-story" src = "https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">   
+    
+    <style amp-custom>
+      amp-story {
+        font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+        font-weight: 500;
+        color: #fff;
+      }
+      amp-story-page {
+        background-color: #000;
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 52px;
+        font-weight: normal;
+        line-height: 1.174;
+      }
+      p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.5em;
+        color: #fff;
+      }
+      q {
+        font-weight: 300;
+        font-size: 1.1em;
+      }
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+      li{
+        list-style: none;
+      }
+      amp-story-grid-layer.bottom {
+        align-content:end;
+      }
+      amp-story-grid-layer.noedge {
+        padding: 0px;
+      }
+      amp-story-grid-layer.center-text {
+        align-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+      .banner-text {
+        text-align: center;
+        background-color: #000;
+        line-height: 2em;
+      }
+      .fa-instagram, .fa-twitter{
+        display: block;
+        font-size: 56px;
+      }
+      .t_center{
+        text-align: center;
+      }
+      .d_grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: 2fr 1fr;
+        font-size: 1.25em;
+      }
+    </style>
+  </head>
+  <body>
+    <amp-story standalone title="Joy of Pets" publisher="AMP tutorials" publisher-logo-src="assets/AMP-Brand-White-Icon.svg" poster-portrait-src="assets/cover.jpg">
+      <amp-story-page id="cover">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/cover_flower.jpg" width="720" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" animate-in="fly-in-top">
+          <h1>巾着田</h1>
+          <p>埼玉県日高市大字高麗本郷125-2</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page1">
+        <amp-story-grid-layer template="fill">
+            <amp-img src="assets/page_flower1.jpg" width="720" height="1280" layout="responsive"> </amp-img>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="vertical" class="bottom" animate-in="fly-in-bottom">
+            <h2>曼珠沙華</h2>
+            <p>道端などに群生し、日本では9月中旬頃に赤い花をつける。稀に色素形成異常で白みがかった個体もある。その姿は独特で、夏の終わりから秋の初めにかけて、高さ30 - 50cmの枝も葉も節もない花茎が地上に突出し、その先端に苞に包まれた花序が一つだけ付く。</p>
+          </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page2">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/page_flower2.jpg" width="720" height="1280" layout="responsive"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom" animate-in="fly-in-bottom">
+          <h2 grid-area="">Nikon D810</h1>
+          <p grid-area="">AF-S VR Micro-Nikkor 105mm f/2.8G IF-ED</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-page id="page3">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="assets/page_flower3.jpg" width="720" height="1280" layout="responsive"> </amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds" animate-in="drop">
+          <ul class="d_grid" grid-area="middle-third"> 
+            <li class="t_center"><i class="fab fa-instagram"></i>instagram</li>
+            <li class="t_center"><i class="fab fa-twitter"></i>twitter</li>
+          </ul>
+        </amp-story-grid-layer>
+      </amp-story-page>
+      <amp-story-bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
+    </amp-story>
+  </body>
+</html>
