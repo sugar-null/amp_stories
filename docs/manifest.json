@@ -3,7 +3,7 @@
   "short_name": "曼珠沙華",
   "theme_color": "#d20316",
   "background_color": "#ffffff",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "https://sugar-null.github.io/amp_stories/",
   "icons": [
